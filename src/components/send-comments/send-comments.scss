@@ -1,0 +1,48 @@
+send-comments {
+    font-family: 'Standard';    
+    star-rating{
+        text-align: center;
+        ion-icon{
+            letter-spacing: 15px; 
+            font-size: 3rem !important; 
+        }
+    }
+    .msg{
+        text-align: center;
+        font-size: 1.8rem;
+        color: #171717;
+        letter-spacing: 1px;
+    }
+    .box{
+        position: relative;
+        width: 95%;
+        margin: 0 auto;
+        height: 150px;
+        background: #F5F5F5;        
+    }
+    textarea{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        background: #F5F5F5;
+        padding: .6rem;
+        height: 130px;
+        border:none;
+        resize:none;
+        letter-spacing: 1px;
+        line-height: 16px;
+    }
+    .num{
+        margin: 0 !important;
+        position: absolute;
+        bottom: 0px;
+        right: 10px;
+        color: #8B8B8B;
+    }
+    .showNum{
+        color: color( $colors,num-color )
+    }
+    .active{
+        color: color( $colors,danger )
+    }
+}

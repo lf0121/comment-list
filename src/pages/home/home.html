@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <p (tap)='click()' >点击我要评论</p>
+  <!-- 评论列表 -->
+  <comment-list></comment-list>
+  <comment-list></comment-list>
+  
+
+  <!-- 发布评论 -->
+  <send-comments *ngIf='show' ></send-comments>
+  
+</ion-content>

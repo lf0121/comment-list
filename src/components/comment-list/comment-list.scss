@@ -1,0 +1,45 @@
+comment-list {
+    font-family: 'Standard';
+    ion-list{
+        margin: 0 !important;
+    }
+    .user-name{
+        font-size: 1.6rem;
+        color: color( $colors,user-color );
+    }
+    .wonderful{
+        background: #F26151;
+        color: white;
+        border-radius: 3px;
+        font-size: 0.6rem;
+        padding: .2rem .4rem;
+    }
+    .rank{
+        margin: 0;
+        padding-left: 68px;
+        color: color( $colors,user-color );
+        font-size: 0.8rem;   
+        margin-bottom: 5px;   
+        >span{
+            margin-right: 10px;
+        }  
+    }
+    .list-content{
+        padding-left: 68px;
+        padding-right: 10px;
+        color: #202020;
+        font-size: .8rem;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+    .time{
+        padding-left: 52px;
+        font-size: .6rem;
+        color: color( $colors,user-color );
+    }
+    .num{
+        font-size: .6rem;
+        color: color( $colors,user-color );
+    }
+    
+}

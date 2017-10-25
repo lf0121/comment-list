@@ -1,0 +1,5 @@
+<!-- Generated template for the StarRatingComponent component -->
+<div>
+    <ion-icon name='star' *ngFor='let item of starArray;let i=index' [ngClass]="{'active':i<_rank}" (click)='starNum(i)' ></ion-icon>
+    <span class="ranking" *ngIf='show' >{{ _rank }}</span>
+</div>

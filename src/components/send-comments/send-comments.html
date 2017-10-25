@@ -1,0 +1,12 @@
+<!-- Generated template for the SendCommentsComponent component -->
+<div>
+    <star-rating (send)='click($event)' ></star-rating>
+    <h3 class="msg" >{{ msg }}</h3>
+    <div class="box">
+        <textarea placeholder='写下你的反馈和建议' (input)='pickUp($event)' [(ngModel)]='_content' >{{ _content }}</textarea>
+        <p class="num" >
+          <span class="showNum" [ngClass]="{'active':_num>100}" >{{ _num }}</span>/100
+        </p>
+    </div>
+    
+</div>
